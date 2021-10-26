@@ -33,7 +33,7 @@ body{
     right:50px;
     color: rgb(207, 43, 43);
     background-color: rgb(61, 56, 56);
-    
+    outline: none;
 }
 .theme:hover{
     cursor:pointer;

@@ -21,6 +21,7 @@ function myFunction() {
 
 Theme.addEventListener("click",function(){
     myFunction()
+    
 })
 
 var a=document
