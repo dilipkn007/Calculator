@@ -95,3 +95,6 @@ textarea{
     cursor: pointer;
 }
 
+.dark-mode:focus,.key:focus{
+    outline: none;
+}

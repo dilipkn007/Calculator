@@ -246,6 +246,7 @@ document.addEventListener('keydown',function(event) {
     }
     if(keyPressed==="=" || keyPressed==="Enter")
     {
+        event.preventDefault()
         evaluateResult()
     }
     if( keyPressed==="Delete")
