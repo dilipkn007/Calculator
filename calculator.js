@@ -1,22 +1,23 @@
 // var on_click=document.getElementsByClassName("headerText")
-var i=0;
+// var i=0;
 function myFunction() {
     var element = document.body   
     element.classList.toggle("dark-mode")
-    if(i%2===0){
-        document.getElementById("a").setAttribute("style",`background-color:$(color);color:blue`);
-        document.getElementById("Theme").setAttribute("style",`background-color:$(color);color:blue`);
-        document.getElementById("calculatorResult").setAttribute("style",`background-color:$(color);color:blue`);
+    // if(i%2===0){
+        // document.getElementById("a").setAttribute("style",`background-color:$(color);color:blue`);
+        // document.getElementById("Theme").setAttribute("style",`background-color:$(color);color:blue`);
+        // document.getElementById("calculatorResult").setAttribute("style",`background-color:$(color);color:blue`);
+        // document.getElementsByClassName("key").setAttribute("style",`background-color:$(color);color:blue`);
         // document.getElementsByClassName("key")[1].setAttribute("onMouseOver",`this.style.color=$(color);color:'blue'`);
         // onMouseOver="this.style.color='#0F0'"
-    }
-    if(i%2===1){
-        document.getElementById("a").setAttribute("style",`background-color:$(color);color: rgb(251, 0, 0);`);
-        document.getElementById("Theme").setAttribute("style",`background-color:$(color);color: rgb(251, 0, 0);`);
-        document.getElementById("calculatorResult").setAttribute("style",`background-color:$(color);color:rgb(251, 0, 0);`);
+    // }
+    // if(i%2===1){
+        // document.getElementById("a").setAttribute("style",`background-color:$(color);color: rgb(251, 0, 0);`);
+        // document.getElementById("Theme").setAttribute("style",`background-color:$(color);color: rgb(251, 0, 0);`);
+        // document.getElementById("calculatorResult").setAttribute("style",`background-color:$(color);color:rgb(251, 0, 0);`);
         // document.getElementsByClassName("key")[1].setAttribute("style",`background-color:$(color);color:rgb(251,0,0);`);
-    }
-        i=i+1;
+    // }
+        // i=i+1;
  }
 
 Theme.addEventListener("click",function(){
