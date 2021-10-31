@@ -102,9 +102,6 @@ textarea{
     outline: none;
 }
 @media only screen and (max-width: 690px) {
-    body{
-        background-color: aquamarine;
-    }
         textarea{
             width: 45vw;
         }
@@ -116,9 +113,6 @@ textarea{
         }
 }
 @media only screen and (max-width: 500px){
-    body{
-        background-color: beige;
-    }
     textarea{
         width: 50vw;
     }
