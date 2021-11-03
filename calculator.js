@@ -168,7 +168,7 @@ evaluateResult=()=>{
     }
 }
 
-document.addEventListener('keydown',function(event) {
+document.addEventListener('keypress',function(event) {
     var keyPressed=event.key;
     if(keyPressed==="0")
     {
